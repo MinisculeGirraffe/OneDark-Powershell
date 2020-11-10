@@ -1,0 +1,38 @@
+ /* Windows Terminal Color scheme JSON. 
+ Copy the object into your schemes array, and then associate the shell session with the color scheme
+ Example:
+
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "colorScheme": "OneDark"
+        },
+
+
+*/
+ "schemes": [
+    {
+        "name" : "OneDark",
+        "background" : "#282c34",
+        "black" : "#21222C",
+        "blue" : "#61afef",
+        "brightBlack" : "#6272A4",
+        "brightBlue" : "#61afef",
+        "brightCyan" : "#61afef",
+        "brightGreen" : "#98c379",
+        "brightPurple" : "#c678dd",
+        "brightRed" : "#E06c75",
+        "brightWhite" : "#FFFFFF",
+        "brightYellow" : "#e5c07n",
+        "cyan" : "#61afef",
+        "foreground" : "#F8F8F2",
+        "green" : "#98c379", 
+        "purple" : "#c678dd",
+        "red" : "#e06c75",
+        "white" : "#F8F8F2",
+        "yellow" : "#E5C07b"
+    }
+],
